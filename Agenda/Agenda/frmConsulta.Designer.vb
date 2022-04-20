@@ -23,20 +23,20 @@ Partial Class frmConsulta
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtNome = New System.Windows.Forms.TextBox()
         Me.txtCEP = New System.Windows.Forms.TextBox()
+        Me.txtNome = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.dgvDados = New System.Windows.Forms.DataGridView()
         Me.colCodigo = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colNome = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colCep = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.colUF = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colEndereco = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.colBairro = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colComplemento = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colBairro = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colUF = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colFone1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.colFone2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GroupBox1.SuspendLayout()
@@ -57,14 +57,19 @@ Partial Class frmConsulta
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Filtra por"
         '
-        'Label1
+        'txtCEP
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(24, 43)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 15)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Nome:"
+        Me.txtCEP.Location = New System.Drawing.Point(564, 40)
+        Me.txtCEP.Name = "txtCEP"
+        Me.txtCEP.Size = New System.Drawing.Size(155, 23)
+        Me.txtCEP.TabIndex = 3
+        '
+        'txtNome
+        '
+        Me.txtNome.Location = New System.Drawing.Point(73, 40)
+        Me.txtNome.Name = "txtNome"
+        Me.txtNome.Size = New System.Drawing.Size(432, 23)
+        Me.txtNome.TabIndex = 1
         '
         'Label2
         '
@@ -75,19 +80,14 @@ Partial Class frmConsulta
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "CEP:"
         '
-        'txtNome
+        'Label1
         '
-        Me.txtNome.Location = New System.Drawing.Point(73, 40)
-        Me.txtNome.Name = "txtNome"
-        Me.txtNome.Size = New System.Drawing.Size(432, 23)
-        Me.txtNome.TabIndex = 1
-        '
-        'txtCEP
-        '
-        Me.txtCEP.Location = New System.Drawing.Point(564, 40)
-        Me.txtCEP.Name = "txtCEP"
-        Me.txtCEP.Size = New System.Drawing.Size(155, 23)
-        Me.txtCEP.TabIndex = 3
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(24, 43)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(43, 15)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Nome:"
         '
         'GroupBox2
         '
@@ -109,8 +109,8 @@ Partial Class frmConsulta
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.dgvDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvDados.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colCodigo, Me.colNome, Me.colCep, Me.colUF, Me.colEndereco, Me.colBairro, Me.colNumero, Me.colComplemento, Me.colFone1, Me.colFone2})
-        Me.dgvDados.Location = New System.Drawing.Point(12, 12)
+        Me.dgvDados.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colCodigo, Me.colNome, Me.colCep, Me.colEndereco, Me.colNumero, Me.colComplemento, Me.colBairro, Me.colUF, Me.colFone1, Me.colFone2})
+        Me.dgvDados.Location = New System.Drawing.Point(24, 12)
         Me.dgvDados.Name = "dgvDados"
         Me.dgvDados.ReadOnly = True
         Me.dgvDados.RowTemplate.Height = 25
@@ -138,26 +138,12 @@ Partial Class frmConsulta
         Me.colCep.Name = "colCep"
         Me.colCep.ReadOnly = True
         '
-        'colUF
-        '
-        Me.colUF.DataPropertyName = "UF"
-        Me.colUF.HeaderText = "UF"
-        Me.colUF.Name = "colUF"
-        Me.colUF.ReadOnly = True
-        '
         'colEndereco
         '
         Me.colEndereco.DataPropertyName = "ENDERECO"
         Me.colEndereco.HeaderText = "Endereço"
         Me.colEndereco.Name = "colEndereco"
         Me.colEndereco.ReadOnly = True
-        '
-        'colBairro
-        '
-        Me.colBairro.DataPropertyName = "BAIRRO"
-        Me.colBairro.HeaderText = "Bairro"
-        Me.colBairro.Name = "colBairro"
-        Me.colBairro.ReadOnly = True
         '
         'colNumero
         '
@@ -172,6 +158,20 @@ Partial Class frmConsulta
         Me.colComplemento.HeaderText = "Complemento"
         Me.colComplemento.Name = "colComplemento"
         Me.colComplemento.ReadOnly = True
+        '
+        'colBairro
+        '
+        Me.colBairro.DataPropertyName = "BAIRRO"
+        Me.colBairro.HeaderText = "Bairro"
+        Me.colBairro.Name = "colBairro"
+        Me.colBairro.ReadOnly = True
+        '
+        'colUF
+        '
+        Me.colUF.DataPropertyName = "UF"
+        Me.colUF.HeaderText = "UF"
+        Me.colUF.Name = "colUF"
+        Me.colUF.ReadOnly = True
         '
         'colFone1
         '
@@ -215,11 +215,11 @@ Partial Class frmConsulta
     Friend WithEvents colCodigo As DataGridViewTextBoxColumn
     Friend WithEvents colNome As DataGridViewTextBoxColumn
     Friend WithEvents colCep As DataGridViewTextBoxColumn
-    Friend WithEvents colUF As DataGridViewTextBoxColumn
     Friend WithEvents colEndereco As DataGridViewTextBoxColumn
-    Friend WithEvents colBairro As DataGridViewTextBoxColumn
     Friend WithEvents colNumero As DataGridViewTextBoxColumn
     Friend WithEvents colComplemento As DataGridViewTextBoxColumn
+    Friend WithEvents colBairro As DataGridViewTextBoxColumn
+    Friend WithEvents colUF As DataGridViewTextBoxColumn
     Friend WithEvents colFone1 As DataGridViewTextBoxColumn
     Friend WithEvents colFone2 As DataGridViewTextBoxColumn
 End Class

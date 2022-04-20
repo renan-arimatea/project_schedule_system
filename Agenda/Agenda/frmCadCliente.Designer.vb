@@ -25,40 +25,40 @@ Partial Class frmCadCliente
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmCadCliente))
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.tsbIncluir = New System.Windows.Forms.ToolStripButton()
-        Me.tsbConsultar = New System.Windows.Forms.ToolStripButton()
-        Me.tsbEditar = New System.Windows.Forms.ToolStripButton()
-        Me.tsbSalvar = New System.Windows.Forms.ToolStripButton()
-        Me.tsbCancelar = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tsbConsultar = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tsbEditar = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tsbSalvar = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tsbCancelar = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.tsbSair = New System.Windows.Forms.ToolStripButton()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtCodigo = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.txtNome = New System.Windows.Forms.TextBox()
-        Me.txtCep = New System.Windows.Forms.TextBox()
-        Me.txtEndereco = New System.Windows.Forms.TextBox()
-        Me.txtBairro = New System.Windows.Forms.TextBox()
-        Me.txtFone1 = New System.Windows.Forms.TextBox()
-        Me.txtComplemento = New System.Windows.Forms.TextBox()
-        Me.txtNumero = New System.Windows.Forms.TextBox()
-        Me.txtFone2 = New System.Windows.Forms.TextBox()
-        Me.btnPesquisar = New System.Windows.Forms.Button()
         Me.txtUF = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.btnPesquisar = New System.Windows.Forms.Button()
+        Me.txtFone2 = New System.Windows.Forms.TextBox()
+        Me.txtNumero = New System.Windows.Forms.TextBox()
+        Me.txtComplemento = New System.Windows.Forms.TextBox()
+        Me.txtFone1 = New System.Windows.Forms.TextBox()
+        Me.txtBairro = New System.Windows.Forms.TextBox()
+        Me.txtEndereco = New System.Windows.Forms.TextBox()
+        Me.txtCep = New System.Windows.Forms.TextBox()
+        Me.txtNome = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtCodigo = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolStrip1.SuspendLayout()
         Me.StatusStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -83,6 +83,11 @@ Partial Class frmCadCliente
         Me.tsbIncluir.Size = New System.Drawing.Size(40, 40)
         Me.tsbIncluir.Text = "Incluir"
         '
+        'ToolStripSeparator5
+        '
+        Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
+        Me.ToolStripSeparator5.Size = New System.Drawing.Size(6, 43)
+        '
         'tsbConsultar
         '
         Me.tsbConsultar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
@@ -93,6 +98,11 @@ Partial Class frmCadCliente
         Me.tsbConsultar.Size = New System.Drawing.Size(40, 40)
         Me.tsbConsultar.Text = "Consultar"
         '
+        'ToolStripSeparator4
+        '
+        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 43)
+        '
         'tsbEditar
         '
         Me.tsbEditar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
@@ -102,6 +112,11 @@ Partial Class frmCadCliente
         Me.tsbEditar.Name = "tsbEditar"
         Me.tsbEditar.Size = New System.Drawing.Size(40, 40)
         Me.tsbEditar.Text = "Editar"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 43)
         '
         'tsbSalvar
         '
@@ -114,6 +129,11 @@ Partial Class frmCadCliente
         Me.tsbSalvar.Size = New System.Drawing.Size(40, 40)
         Me.tsbSalvar.Text = "Salvar"
         '
+        'ToolStripSeparator3
+        '
+        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 43)
+        '
         'tsbCancelar
         '
         Me.tsbCancelar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
@@ -125,30 +145,10 @@ Partial Class frmCadCliente
         Me.tsbCancelar.Size = New System.Drawing.Size(40, 40)
         Me.tsbCancelar.Text = "Cancelar"
         '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 43)
-        '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
         Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 43)
-        '
-        'ToolStripSeparator3
-        '
-        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 43)
-        '
-        'ToolStripSeparator4
-        '
-        Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 43)
-        '
-        'ToolStripSeparator5
-        '
-        Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
-        Me.ToolStripSeparator5.Size = New System.Drawing.Size(6, 43)
         '
         'tsbSair
         '
@@ -178,8 +178,8 @@ Partial Class frmCadCliente
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.txtUF)
         Me.GroupBox1.Controls.Add(Me.Label10)
+        Me.GroupBox1.Controls.Add(Me.txtUF)
         Me.GroupBox1.Controls.Add(Me.btnPesquisar)
         Me.GroupBox1.Controls.Add(Me.txtFone2)
         Me.GroupBox1.Controls.Add(Me.txtNumero)
@@ -205,167 +205,23 @@ Partial Class frmCadCliente
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         '
-        'Label1
+        'txtUF
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Enabled = False
-        Me.Label1.Location = New System.Drawing.Point(16, 27)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(49, 15)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Código:"
+        Me.txtUF.Enabled = False
+        Me.txtUF.Location = New System.Drawing.Point(71, 224)
+        Me.txtUF.Name = "txtUF"
+        Me.txtUF.Size = New System.Drawing.Size(110, 23)
+        Me.txtUF.TabIndex = 22
         '
-        'txtCodigo
+        'Label10
         '
-        Me.txtCodigo.Enabled = False
-        Me.txtCodigo.Location = New System.Drawing.Point(71, 21)
-        Me.txtCodigo.Name = "txtCodigo"
-        Me.txtCodigo.Size = New System.Drawing.Size(110, 23)
-        Me.txtCodigo.TabIndex = 4
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Enabled = False
-        Me.Label2.Location = New System.Drawing.Point(22, 53)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(43, 15)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Nome:"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Enabled = False
-        Me.Label3.Location = New System.Drawing.Point(34, 82)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(31, 15)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "CEP:"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Enabled = False
-        Me.Label4.Location = New System.Drawing.Point(6, 140)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(59, 15)
-        Me.Label4.TabIndex = 7
-        Me.Label4.Text = "Endereço:"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Enabled = False
-        Me.Label5.Location = New System.Drawing.Point(24, 169)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(41, 15)
-        Me.Label5.TabIndex = 8
-        Me.Label5.Text = "Bairro:"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Enabled = False
-        Me.Label6.Location = New System.Drawing.Point(11, 198)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(54, 15)
-        Me.Label6.TabIndex = 9
-        Me.Label6.Text = "Número:"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Enabled = False
-        Me.Label7.Location = New System.Drawing.Point(22, 227)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(43, 15)
-        Me.Label7.TabIndex = 10
-        Me.Label7.Text = "Comp:"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Enabled = False
-        Me.Label8.Location = New System.Drawing.Point(22, 256)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(36, 15)
-        Me.Label8.TabIndex = 11
-        Me.Label8.Text = "Fone:"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Enabled = False
-        Me.Label9.Location = New System.Drawing.Point(22, 285)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(36, 15)
-        Me.Label9.TabIndex = 12
-        Me.Label9.Text = "Fone:"
-        '
-        'txtNome
-        '
-        Me.txtNome.Enabled = False
-        Me.txtNome.Location = New System.Drawing.Point(71, 50)
-        Me.txtNome.Name = "txtNome"
-        Me.txtNome.Size = New System.Drawing.Size(755, 23)
-        Me.txtNome.TabIndex = 13
-        '
-        'txtCep
-        '
-        Me.txtCep.Enabled = False
-        Me.txtCep.Location = New System.Drawing.Point(71, 79)
-        Me.txtCep.Name = "txtCep"
-        Me.txtCep.Size = New System.Drawing.Size(110, 23)
-        Me.txtCep.TabIndex = 14
-        '
-        'txtEndereco
-        '
-        Me.txtEndereco.Enabled = False
-        Me.txtEndereco.Location = New System.Drawing.Point(71, 137)
-        Me.txtEndereco.Name = "txtEndereco"
-        Me.txtEndereco.Size = New System.Drawing.Size(755, 23)
-        Me.txtEndereco.TabIndex = 15
-        '
-        'txtBairro
-        '
-        Me.txtBairro.Enabled = False
-        Me.txtBairro.Location = New System.Drawing.Point(71, 166)
-        Me.txtBairro.Name = "txtBairro"
-        Me.txtBairro.Size = New System.Drawing.Size(755, 23)
-        Me.txtBairro.TabIndex = 16
-        '
-        'txtFone1
-        '
-        Me.txtFone1.Enabled = False
-        Me.txtFone1.Location = New System.Drawing.Point(71, 253)
-        Me.txtFone1.Name = "txtFone1"
-        Me.txtFone1.Size = New System.Drawing.Size(110, 23)
-        Me.txtFone1.TabIndex = 17
-        '
-        'txtComplemento
-        '
-        Me.txtComplemento.Enabled = False
-        Me.txtComplemento.Location = New System.Drawing.Point(71, 224)
-        Me.txtComplemento.Name = "txtComplemento"
-        Me.txtComplemento.Size = New System.Drawing.Size(755, 23)
-        Me.txtComplemento.TabIndex = 18
-        '
-        'txtNumero
-        '
-        Me.txtNumero.Enabled = False
-        Me.txtNumero.Location = New System.Drawing.Point(71, 195)
-        Me.txtNumero.Name = "txtNumero"
-        Me.txtNumero.Size = New System.Drawing.Size(110, 23)
-        Me.txtNumero.TabIndex = 19
-        '
-        'txtFone2
-        '
-        Me.txtFone2.Enabled = False
-        Me.txtFone2.Location = New System.Drawing.Point(71, 282)
-        Me.txtFone2.Name = "txtFone2"
-        Me.txtFone2.Size = New System.Drawing.Size(110, 23)
-        Me.txtFone2.TabIndex = 20
+        Me.Label10.AutoSize = True
+        Me.Label10.Enabled = False
+        Me.Label10.Location = New System.Drawing.Point(34, 227)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(24, 15)
+        Me.Label10.TabIndex = 21
+        Me.Label10.Text = "UF:"
         '
         'btnPesquisar
         '
@@ -377,23 +233,167 @@ Partial Class frmCadCliente
         Me.btnPesquisar.TabIndex = 3
         Me.btnPesquisar.UseVisualStyleBackColor = True
         '
-        'txtUF
+        'txtFone2
         '
-        Me.txtUF.Enabled = False
-        Me.txtUF.Location = New System.Drawing.Point(71, 108)
-        Me.txtUF.Name = "txtUF"
-        Me.txtUF.Size = New System.Drawing.Size(110, 23)
-        Me.txtUF.TabIndex = 22
+        Me.txtFone2.Enabled = False
+        Me.txtFone2.Location = New System.Drawing.Point(71, 282)
+        Me.txtFone2.Name = "txtFone2"
+        Me.txtFone2.Size = New System.Drawing.Size(110, 23)
+        Me.txtFone2.TabIndex = 20
         '
-        'Label10
+        'txtNumero
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Enabled = False
-        Me.Label10.Location = New System.Drawing.Point(41, 111)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(24, 15)
-        Me.Label10.TabIndex = 21
-        Me.Label10.Text = "UF:"
+        Me.txtNumero.Enabled = False
+        Me.txtNumero.Location = New System.Drawing.Point(71, 137)
+        Me.txtNumero.Name = "txtNumero"
+        Me.txtNumero.Size = New System.Drawing.Size(110, 23)
+        Me.txtNumero.TabIndex = 19
+        '
+        'txtComplemento
+        '
+        Me.txtComplemento.Enabled = False
+        Me.txtComplemento.Location = New System.Drawing.Point(71, 166)
+        Me.txtComplemento.Name = "txtComplemento"
+        Me.txtComplemento.Size = New System.Drawing.Size(755, 23)
+        Me.txtComplemento.TabIndex = 18
+        '
+        'txtFone1
+        '
+        Me.txtFone1.Enabled = False
+        Me.txtFone1.Location = New System.Drawing.Point(71, 253)
+        Me.txtFone1.Name = "txtFone1"
+        Me.txtFone1.Size = New System.Drawing.Size(110, 23)
+        Me.txtFone1.TabIndex = 17
+        '
+        'txtBairro
+        '
+        Me.txtBairro.Enabled = False
+        Me.txtBairro.Location = New System.Drawing.Point(71, 195)
+        Me.txtBairro.Name = "txtBairro"
+        Me.txtBairro.Size = New System.Drawing.Size(755, 23)
+        Me.txtBairro.TabIndex = 16
+        '
+        'txtEndereco
+        '
+        Me.txtEndereco.Enabled = False
+        Me.txtEndereco.Location = New System.Drawing.Point(71, 108)
+        Me.txtEndereco.Name = "txtEndereco"
+        Me.txtEndereco.Size = New System.Drawing.Size(755, 23)
+        Me.txtEndereco.TabIndex = 15
+        '
+        'txtCep
+        '
+        Me.txtCep.Enabled = False
+        Me.txtCep.Location = New System.Drawing.Point(71, 79)
+        Me.txtCep.Name = "txtCep"
+        Me.txtCep.Size = New System.Drawing.Size(110, 23)
+        Me.txtCep.TabIndex = 14
+        '
+        'txtNome
+        '
+        Me.txtNome.Enabled = False
+        Me.txtNome.Location = New System.Drawing.Point(71, 50)
+        Me.txtNome.Name = "txtNome"
+        Me.txtNome.Size = New System.Drawing.Size(755, 23)
+        Me.txtNome.TabIndex = 13
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Enabled = False
+        Me.Label9.Location = New System.Drawing.Point(22, 285)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(36, 15)
+        Me.Label9.TabIndex = 12
+        Me.Label9.Text = "Fone:"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Enabled = False
+        Me.Label8.Location = New System.Drawing.Point(22, 256)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(36, 15)
+        Me.Label8.TabIndex = 11
+        Me.Label8.Text = "Fone:"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Enabled = False
+        Me.Label7.Location = New System.Drawing.Point(22, 169)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(43, 15)
+        Me.Label7.TabIndex = 10
+        Me.Label7.Text = "Comp:"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Enabled = False
+        Me.Label6.Location = New System.Drawing.Point(11, 140)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(54, 15)
+        Me.Label6.TabIndex = 9
+        Me.Label6.Text = "Número:"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Enabled = False
+        Me.Label5.Location = New System.Drawing.Point(24, 198)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(41, 15)
+        Me.Label5.TabIndex = 8
+        Me.Label5.Text = "Bairro:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Enabled = False
+        Me.Label4.Location = New System.Drawing.Point(6, 111)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(59, 15)
+        Me.Label4.TabIndex = 7
+        Me.Label4.Text = "Endereço:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Enabled = False
+        Me.Label3.Location = New System.Drawing.Point(34, 82)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(31, 15)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "CEP:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Enabled = False
+        Me.Label2.Location = New System.Drawing.Point(22, 53)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(43, 15)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Nome:"
+        '
+        'txtCodigo
+        '
+        Me.txtCodigo.Enabled = False
+        Me.txtCodigo.Location = New System.Drawing.Point(71, 21)
+        Me.txtCodigo.Name = "txtCodigo"
+        Me.txtCodigo.Size = New System.Drawing.Size(110, 23)
+        Me.txtCodigo.TabIndex = 4
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Enabled = False
+        Me.Label1.Location = New System.Drawing.Point(16, 27)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(49, 15)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Código:"
         '
         'frmCadCliente
         '
