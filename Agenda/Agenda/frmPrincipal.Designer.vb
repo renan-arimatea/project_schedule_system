@@ -29,8 +29,8 @@ Partial Class frmPrincipal
         Me.mnuConsulta = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.tsbCliente = New System.Windows.Forms.ToolStripButton()
-        Me.tsbConsultar = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.tsbConsultar = New System.Windows.Forms.ToolStripButton()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -85,6 +85,11 @@ Partial Class frmPrincipal
         Me.tsbCliente.Text = "Cadastro Cliente"
         Me.tsbCliente.ToolTipText = "Cadastro Cliente"
         '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 43)
+        '
         'tsbConsultar
         '
         Me.tsbConsultar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
@@ -95,11 +100,6 @@ Partial Class frmPrincipal
         Me.tsbConsultar.Size = New System.Drawing.Size(40, 40)
         Me.tsbConsultar.Text = "Consultar"
         Me.tsbConsultar.ToolTipText = "Consultar" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 43)
         '
         'frmPrincipal
         '
