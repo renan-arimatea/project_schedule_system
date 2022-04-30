@@ -9,6 +9,7 @@
     Private Sub mnuCadastro_Click(sender As Object, e As EventArgs) Handles mnuCadastro.Click
 
         If frmCliente Is Nothing Then
+
             frmCliente = New frmCadCliente
             frmCliente.Show()
 
@@ -31,6 +32,7 @@
     Private Sub mnuConsulta_Click(sender As Object, e As EventArgs) Handles mnuConsulta.Click
 
         If frmConsult Is Nothing Then
+
             frmConsult = New frmConsulta
             frmConsult.Show()
 
